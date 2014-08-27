@@ -1,0 +1,66 @@
+body {background-size:100%;
+    background-image:url('http://stylonica.com/wp-content/uploads/2014/03/Dolphin-Sunset-HD-Wallpaper.jpg') ;
+
+}
+img { border-radius: 50%;
+    width: 30%;
+    margin-left: 4%;
+    margin-top: 30px;
+}
+
+h1 { margin-left:35%;
+    font-family: "comic Sans Ms", cursive, sans-serif;
+    color: navajowhite;
+}
+
+.contact{ margin-top: 212px }
+
+#socialbar img {
+    border: 0px;
+}
+
+#socialbar li img {
+    width: 48px;
+    height: 48px;
+}
+
+#socialbar li a:hover {
+    position: relative;
+    top: 2px;
+}
+
+#socialbar {
+    padding: 0px;
+    list-style: none outside none;
+    margin-left:34%;
+    position: static;
+}
+
+#socialbar li {
+    display: inline;
+    padding-right: 2px;
+}
+
+#socialbar {
+    width: 180px;
+    text-align: center;
+}
+p {
+    color: navajowhite;
+}
+.headerStyle {
+    color: white;
+}
+.headerStyle2{color: #FCF1B4;
+
+
+
+}
+
+.paracolor{
+    color: darkblue;
+
+}
+.darktext{
+    color: green;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Awesome Restaurants in the San Francisco Bay Area</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="description" content="Top of the line popular restaurants with the must-eat items in SF BayArea"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Awesome Restaurants in the San Francisco Bay Area"/>
+        <meta property="og:url" content="http://codective.github.io/bestofthebay/"/>
+        <meta property="og:image" content="http://www.restaurantnews.com/wp-content/uploads/2014/03/First-Watch-Restaurants-Smoked-Salmon-Roasted-Vegetable-Frittata.jpg"/>
+        <meta property="og:site_name" content="BestOfTheBay"/>
+        <meta property="og:description" content="Top of the line popular restaurants with the must-eat items in SF BayArea"/>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <style>
+            .item
+        </style>
+    </head>
+    <body>
+    <header>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript">
+            var toggleMenu= function(elem){
+                $("form")[0].reset();
+                $('[id$="menu"]').hide();
+                $("#"+elem.id+"menu").show();
+                //console.log("#"+this.id+"menu");
+            };
+
+        </script>
+        <div class="container">
+            <header>
+                <h1>Best of The Bay</h1>
+                <div class="row">
+                <div class="col-sm-6">
+                    <div class="lead">Pick a Restaurant</div>
+                    <ul class="list-unstyled">
+                        <li data-sorce><a href="#" onclick="toggleMenu(this)" id="mongolian">Mongolian BBQ</a></li>
+                        <li data-sorce><a href="#" id ="falafeldr" onclick="toggleMenu(this)" >Falafel Drive</a></li>
+                        <li data-sorce><a href="#" id ="pizza" onclick="toggleMenu(this)" >Pizza Chicago</a></li>
+                        <li data-sorce><a href="#" id="labamba" onclick="toggleMenu(this)" >La Bamba</a></li>
+                    </ul>
+                </div>
+            </header>
+                <div class="col-sm-6">
+                    <form action="" class="form-horizontal">
+                        <div class="lead">Pick Menu Items</div>
+                        <ul id="falafeldrmenu" class="list-unstyled">
+                            <li>
+                                <input type="checkbox" name="falafel" /> Falafel Sandwitch
+                            </li>
+                            <li>
+                                <input type="checkbox" name="kubbeh" /> Kubbeh
+                            </li>
+                            <li class="item" data-sorce="r1">
+                                <input type="checkbox" name="tabbooleh" /> Tabbooleh
+                            </li>
+                            <li class="item" data-sorce="r1">
+                                <input type="checkbox" name="gyros" /> Gyros
+                            </li>
+                        </ul>
+                        <ul id="mongolianmenu" class="list-unstyled" hidden>
+                            <li class="item" data-sorce="r1">
+                                <input type="checkbox" name="falafel" /> mongolian Sandwitch
+                            </li>
+                            <li class="item" data-sorce="r2">
+                                <input type="checkbox" name="kubbeh" /> mongolian
+                            </li>
+                            <li class="item" data-sorce="r2">
+                                <input type="checkbox" name="tabbooleh" /> mongolian111
+                            </li>
+                            <li class="item" data-sorce="r2">
+                                <input type="checkbox" name="gyros" /> Gyros
+                            </li>
+                        </ul>
+                        <ul id="pizzamenu" class="list-unstyled" hidden >
+                            <li class="item" data-sorce="r3">
+                                <input type="checkbox" name="falafel" /> pizza Sandwitch
+                            </li>
+                            <li class="item" data-sorce="r3">
+                                <input type="checkbox" name="kubbeh" /> pizza11
+                            </li>
+                            <li class="item" data-sorce="r4">
+                                <input type="checkbox" name="tabbooleh" /> pizza1111
+                            </li>
+                            <li class="item" data-sorce="r4d">
+                                <input type="checkbox" name="gyros" /> pizza111111111
+                            </li>
+                        </ul>
+                        <ul id="labambamenu" class="list-unstyled" hidden >
+                            <li class="item" data-sorce="r4">
+                                <input type="checkbox" name="falafel" /> labamba Sandwitch
+                            </li>
+                            <li class="item" data-sorce="r5">
+                                <input type="checkbox" name="kubbeh" /> labamba1
+                            </li>
+                            <li class="item" data-sorce="r5">
+                                <input type="checkbox" name="tabbooleh" /> labamba22
+                            </li>
+                            <li class="item" data-sorce="r5">
+                                <input type="checkbox" name="gyros" /> labamba2222
+                            </li>
+                        </ul>
+
+                        <div class="well">
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input type="email" name="email" placeholder="Email address" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-8">
+                                    <input type="number" name="number" placeholder="Phone Number" class="form-control" />
+                                </div>
+                                <div class="col-sm-4">
+                                    <button type="submit" class="btn btn-success">Order</button>
+                                </div>
+                                </div>
+                            </footer>
+                                copyright..
+                            <</footer>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
+        Status API Training Shop Blog About
+
+

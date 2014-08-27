@@ -1,0 +1,40 @@
+var data = [
+    {
+        id:"r1"
+        name:"r1"
+        menue: [
+           {title: "r1 menue item" },
+           {title: "R1 menue item"}
+        ]
+
+    },
+    {
+        id:"r1"
+        name:"r1"
+        menue: [
+            {title: "r1 menue item" },
+            {title: "R1 menue item"}
+        ]
+
+    },
+    {
+        id:"r1"
+        name:"r1"
+        menue:[
+        {title: }
+        ]
+
+    }
+];
+
+$(function() {
+    console.log("documentsReady");
+    console.log(data);
+$("#resturuantlist").on("click",".resturunts", function(){
+    $(".item").hide().filter("[data-sorce" + r.name"</a><li>";
+        menueItems+='<li class="item" data-sorce=' +r.name + "</><?li>"
+
+}
+
+
+}

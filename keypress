@@ -1,0 +1,4 @@
+$("notes").on("keypress",function() {
+    $("notesCounter").text$(this).val().length
+    if(text > 12) label. text; colume.p[
+  )
