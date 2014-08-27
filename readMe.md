@@ -1,1 +1,3 @@
-example app first project
+* cows
+* chickens
+* pigs
