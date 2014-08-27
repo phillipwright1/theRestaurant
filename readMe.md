@@ -1,3 +1,3 @@
-* cows
-* chickens
-* pigs
+* houses
+* appartments 
+* store
